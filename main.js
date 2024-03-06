@@ -159,8 +159,6 @@ const performPiiSearch = async (contextId) => {
 };
 
 const createMarkupLayer = async (entities) => {
-  // console.dir(entities, { depth: null });
-  // process.exit(1);
   const markupData = {
     marks: entities.reduce((result, entity) => ([
       ...result,

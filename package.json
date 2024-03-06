@@ -1,0 +1,18 @@
+{
+  "name": "prizmdoc-pii-api-demo",
+  "version": "1.0.0",
+  "description": "Demonstrate API-based redaction of PII from a document using PrizmDoc",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node main.js",
+    "docker:build": "docker build . -t boc-2024-demo:local",
+    "docker": "docker run -it boc-2024-demo:local"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  }
+}
